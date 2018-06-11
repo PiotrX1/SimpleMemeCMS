@@ -1,0 +1,677 @@
+@font-face {
+	font-family: 'Intro-Cond-Light';
+	src: url('fonts/Intro Cond Light Free.otf');
+}
+
+div
+{
+	padding: 5px !important;
+}
+p
+{
+	padding: 5px 5px 0 5px;
+}
+
+
+/* Kolorystyka przycisków itd */
+
+
+.bg-dark, .btn-dark
+{
+	background: #262626;
+	color: #888888;
+}
+.bg-darkest, .btn-darkest
+{
+	background: #171717;
+	color: #888888;
+}
+.bg-red, .btn-red
+{
+	background: #cc3333;
+	color: #fff;
+}
+.bg-orange, .btn-orange
+{
+	background: #FF7F00;
+	color: #fff;
+}
+.bg-blue, .btn-blue
+{
+	background: #00477e;
+	color: #fff;
+}
+
+.bg-blue2, .btn-blue2
+{
+	background: #004883;
+	color: #fff;
+}
+
+
+
+.btn-grey:hover
+{
+	background: #262626;
+}
+
+
+.btn-blue:hover
+{
+	background: #003867;
+}
+
+.btn-blue2:hover
+{
+	background: #03406f;
+}
+
+.bg-green, .btn-green
+{
+	background: #007256;
+	color: #fff;
+}
+.btn-green:hover
+{
+	background: #004d33;
+}
+
+.btn-red:hover
+{
+	background: #ba1c1c;
+}
+
+.btn-dark:hover
+{
+	background: #1f1f1f;
+	color: #888888;
+}
+
+
+/******************************************/
+
+ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+li
+{
+	margin: 5px 0 0 0;
+}
+
+
+.border
+{
+	border: 1px solid #191919;
+
+}
+.topnav
+{
+	border-bottom: 1px solid #000000;
+	background: #1f1f1f;
+}
+.post
+{
+
+	background: #171717;
+	margin-top: 20px;
+	color: #888888;
+	border-radius: 0;
+}
+.post > div.postContent
+{
+	max-height: 800px;
+	overflow: hidden;
+	position: relative;
+}
+.post > div.postContent > button
+{
+	position: absolute;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: #000000;
+	opacity: 0.9;
+	color: #aaaaaa;
+	display: none;
+	left: 0;
+	bottom: 0;
+}
+.post > div.postContent > button:hover
+{
+	cursor: pointer;
+}
+p.tags, p.date
+{
+	margin: 0;
+	text-decoration: italic;
+	font-size: 0.8em;
+	color: #777777;
+	padding: 0;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
+{
+	background: #171717;;
+	border: 1px solid #171717;
+	border-bottom: none;
+	color: #aaaaaa;
+	border-radius: 0 !important;
+}
+.nav-tabs .nav-link
+{
+	background: none;
+	border: 1px solid #171717;
+	color: #555555;
+	border-radius: 0 !important;
+}
+.nav-tabs .nav-link:hover
+{
+	border: 1px solid #171717;
+}
+.nav-tabs .nav-link.active:hover
+{
+	border: 1px solid #171717;
+	border-bottom: none;
+}
+.nav-tabs
+{
+	border-bottom: none;
+}
+.nav-item
+{
+	padding: 0;
+	margin-top: 0px;
+}
+nav.navbar
+{
+	position: fixed;
+	top: 0;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 50px !important;
+	z-index: 2;
+}
+main
+{
+	margin-top: 70px;
+}
+button.navbar-toggler
+{
+	height: 50x;
+	line-height: 50px;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0;
+}
+
+button.navbar-toggler span
+{
+	height: 25px;
+	line-height: 25px;
+	width: 25px;
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand img
+{
+	height: 30px;
+}
+.card-block
+{
+	border: 1px solid #171717;
+	padding: 0 !important;
+	margin-top: 0px !important;
+	border-radius: 0 !important;
+}
+.card-title
+{
+	margin-bottom: 7px;
+	padding-left: 5px;
+}
+.card-text
+{
+	margin-bottom: 5px;
+}
+.post header
+{
+	border-bottom: 1px solid black;
+	padding: 5px 5px 0 5px;
+}
+.post img, .post iframe
+{
+	width: 100%;
+}
+.post iframe
+{
+	border: none;
+	height: 40vh;
+}
+.padding-0
+{
+	padding: 0 !important;
+}
+.tags a
+{
+	color: #888888;
+	text-decoration: none;
+}
+div.rate button
+{
+	font-size: 10px;
+}
+button.btn-plus, button.btn-minus
+{
+	background: black;
+	color: #aaaaaa;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+	
+}
+button.btn-plus:hover
+{
+	background: green;
+	color: #FFFFFF;
+}
+button.btn-minus:hover
+{
+	background: red;
+	color: #FFFFFF;
+}
+span.rating
+{
+	color: #aaaaaa;
+	font-size: 12;
+	vertical-align: middle;
+	padding: 0 5px 0 5px;
+}
+.post a
+{
+	color: inherit;
+}
+.accent1
+{
+	background: #c9302c;
+}
+.page-link
+{
+	background: #1f1f1f;
+	border: 1px solid black;
+	color: #888888;
+}
+.page-link:hover
+{
+	background: #c9302c;
+	border: 1px solid black;
+	color: #FFFFFF;
+}
+.page-item.active .page-link
+{
+	background: #ba211d;
+	border: 1px solid black;
+}
+.btn-danger
+{
+	background: #c9302c;
+}
+.btn-danger:hover
+{
+	background: #ba211d;
+}
+.help-block.with-errors
+{
+	color: red;
+	height: 10px;
+	line-height: 10px;
+	font-size: 14px;
+	padding: 5px !important;
+}
+.form-group
+{
+	margin-bottom: 8px;
+	padding: 0 !important;
+}
+.alert
+{
+	margin: 0;
+}
+.alert.alert-ok
+{
+	background: #669900;
+	border: 1px solid black;
+	color: #FFFFFF;
+}
+.alert.alert-error
+{
+	background: #cc0000;
+	border: 1px solid black;
+	color: #FFFFFF;
+}
+button.close
+{
+	padding: 0 !important;
+	top: 0 !important;
+	right: 5px !important;
+}
+#info
+{
+	position: fixed;
+	top: 60px;
+	left: 0;
+	z-index: 1;
+}
+#info div
+{
+	z-index: 1;
+	margin-top: 1px;
+}
+.alert > span
+{
+	padding: 0 10px 0 10px;
+}
+
+.comments .comment img.avatar
+{
+	width: 100%;
+	height: calc(width);
+	max-width: 50px;
+	max-height: 50px;
+	/*border: 1px solid #000000;*/
+	vertical-align: middle;
+}
+.comments .comment .row
+{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.addComment div:first-child
+{
+	padding-right: 0 !important;
+}
+.margin-padding-0
+{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.comments .comment .header
+{
+	font-size: 14px;
+}
+.comments .comment .content
+{
+	font-size: 14px;
+}
+.comments .comment .header span.commentRate
+{
+	padding: 0 5px 0 5px;
+	vertical-align: middle;
+	font-size: 13px;
+	text-align: center;
+}
+.comments .comment .header > div:last-child
+{
+	text-align: right;
+}
+
+.btn-xs
+{
+	height: 20px;
+	line-height: 20px;
+	width: 30px;
+	padding: 0;
+}
+.btn-xs i
+{
+	font-size: 10px;
+	line-height: 20px;
+}
+a:hover
+{
+	cursor: pointer;
+}
+div.post
+{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+#loginregister, .right-panel
+{
+	padding: 0px !important;
+}
+
+textarea, input, label.file, button
+{
+	border: 1px solid #000000;
+	padding: 5px !important;
+	font-size: 14px;
+}
+
+textarea:focus, input:focus
+{
+	border: 1px solid #494949;
+}
+
+input:invalid, textarea:invalid
+{
+	outline: none;
+}
+
+label.error
+{
+	font-size: 12px;
+	display: block;
+	margin: 0;
+}
+
+button.rate-comment
+{
+	padding: 0 !important; 
+}
+button:hover
+{
+	cursor: pointer;
+}
+
+.comments textarea
+{
+	overflow: auto;
+	height: 50px;
+}
+.comments div.addComment
+{
+	padding: 0 10px 0 10px !important;
+}
+.comments div.addComment button
+{
+	height: 50px;
+}
+.btn:hover
+{
+	cursor: pointer;
+}
+span[data-type=commentLenght], span#textLength
+{
+	padding: 0 5px 0 5px;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+}
+span[data-type=commentLenght]
+{
+	padding: 0 10px 0 10px;
+}
+.comments span.diff
+{
+	font-size: 12px;
+}
+.alert-info
+{
+	background: #191919;
+	border: 1px solid #000000;
+}
+.alert-info span
+{
+	color: #ff3300;
+	text-shadow: none;
+}
+input[type=file]
+{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+#addPost
+{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#addPost div, #loginForm div, #registerForm div, #resetPasswordForm div
+{
+	padding: 0 3px 0 3px !important;
+	margin-top: 3px;
+}
+#addPost .row div
+{
+	padding: 0 !important;
+}
+input[type=radio]
+{
+	margin-right: 3px;
+}
+label.file:hover
+{
+	cursor: pointer;
+}
+/*
+label.file
+{
+	height: 31px;
+	line-height: 31px;
+	padding: 0 !important;
+}
+
+label.file i
+{
+	height: 31px;
+	line-height: 31px;
+}*/
+span.radio
+{
+	margin: 0 5px 0 5px;
+	display: inline-block;
+	font-size: 14px;
+}
+footer
+{
+	min-height: 200px;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+footer a, footer a:hover
+{
+	color: inherit;
+}
+footer .row div
+{
+	padding-left: 10px !important;
+}
+span.tagLabel
+{
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px 0 10px;
+	margin: 0 3px 3px 0 !important;
+	font-size: 13px;
+	border: 1px solid black;
+}
+span.tagLabel a
+{
+	font-size: 16px;
+	line-height: 25px;
+	vertical-align: top;
+}
+#tagsLabels
+{
+	margin: 0!important;
+	padding: 0 !important;
+}
+#toggleAddPost:hover
+{
+	cursor: pointer;
+}
+#toggleAddPost a
+{
+	padding-right: 5px;
+}
+.right-panel .row
+{
+	margin: 0 !important;
+}
+
+.right-panel .row i
+{
+	width: 25px;
+}
+.right-panel li
+{
+	height: 20px;
+	line-height: 20px;
+}
+.right-panel ul
+{
+	padding: 0;
+}
+.right-panel
+{
+	margin-top: 10px;
+}
+.right-panel:first-child
+{
+	margin-top: 0;
+}
+#addFromYT
+{
+	display: block;
+	margin: 0px 0 10px 0;
+}
+#a1 a
+{
+	display: block;
+	margin: 2px 0 2px 0;
+}
+a.mini 
+{
+	font-size: 14px;
+}
+a.tagLink:hover
+{
+	color: #cc3333;
+}
+
+p#tou
+{
+	white-space: pre;
+}
+a.share
+{
+	margin-right: 10px;
+}
+a.share:hover
+{
+	text-decoration: underline !important;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #262626;
+}
+.table
+{
+	border-color: black;
+}

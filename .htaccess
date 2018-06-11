@@ -1,0 +1,31 @@
+RewriteEngine on
+
+RewriteRule ^c/([^/^.]*)$ index.php?category=$1
+RewriteRule ^c/([^/^.]*)/$ index.php?category=$1
+RewriteRule ^c/([^/^.]*)/([0-9]+)$ index.php?category=$1&page=$2
+
+RewriteRule ^strona/([0-9]+)$ index.php?page=$1
+
+RewriteRule ^tag/([^/^.]*)/([0-9]+)$ index.php?tag=$1&page=$2
+RewriteRule ^tag/([^/^.]*)$ index.php?tag=$1
+
+
+RewriteRule ^post/([0-9]+)$ index.php?id=$1
+RewriteRule ^post/([0-9]+)/([^/^.]*)$ index.php?id=$1
+RewriteRule ^top/([0-9]+)$ index.php?top&page=$1
+RewriteRule ^top index.php?top
+
+
+RewriteRule ^ustawienia other.php?settings
+RewriteRule ^kontakt other.php?contact
+RewriteRule ^regulamin other.php?terms
+RewriteRule ^moje/([0-9]+)$ index.php?own&page=$1
+RewriteRule ^moje index.php?own
+RewriteRule ^ulubione/([0-9]+)$ index.php?favorites&page=$1
+RewriteRule ^ulubione index.php?favorites
+RewriteRule ^u/([^/^.]*)/([0-9]+)$ index.php?user=$1&page=$2
+RewriteRule ^u/([^/^.]*)$ index.php?user=$1
+RewriteRule ^uzytkownicy users.php
+RewriteRule ^zbanowani users.php?ban
+RewriteRule ^kategorie admin.php?categories
+RewriteRule ^wyloguj login.php?logout

@@ -1,0 +1,10 @@
+1. Administrator strony nie odpowiada za treści postów dodanych przez użytkowników
+2. Dane użytkowników nie są udostępniane osobom trzecim.
+3. Zabronione jest spamowanie ciągle tymi samymi obrazkami.
+4. Nie wolno umieszczać w awatarze treści +18
+5. Dozwolone formaty awatara: png, jpg, gif
+6. Dozwolone formaty memów: png, jpg, gif, mp4, link YT
+7. Nazwa użytkownika nie może zawierać wulgaryzmów
+8. Posty mogą zawierać wulgaryzmy i treści +18.
+
+Osoby łamiące regulamin mogą zostać zablokowane.
