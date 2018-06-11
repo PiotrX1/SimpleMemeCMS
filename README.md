@@ -7,6 +7,7 @@
 - Automatyczne dodawanie znaku wodnego do obrazków
 - Panel użytkownika
   - Zmiana maila, awatara, hasła
+  - Resetowanie hasła
   - Dodawanie memów do ulubionych
   - Śledzenie tagów
   - Dodawanie do ulubionych
