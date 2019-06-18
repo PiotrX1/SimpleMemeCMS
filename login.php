@@ -14,7 +14,7 @@
     if(isset($_GET['logout']))
     {
         session_destroy();
-        header('Location: glowna');
+        header('Location: index.php');
     }
 
 
