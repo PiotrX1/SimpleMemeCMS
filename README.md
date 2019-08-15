@@ -26,3 +26,6 @@
 
 *Plik **DATABASE.sql** zawiera strukturę bazy danych. Po utworzeniu pierwszego konta należy nadać sobie uprawnienia w bazie.*
 
+
+
+![img](https://i.imgur.com/Pl20OwH.png)
